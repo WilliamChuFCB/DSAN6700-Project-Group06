@@ -1,7 +1,7 @@
 # DSAN6700-Project-Group06:
 # Classification Based on Heart Disease Dataset
 
-**Author: Kefan Yu, Wendi Chu, Zifeng Xu**
+**Authors: Kefan Yu, Wendi Chu, Zifeng Xu**
 
 ## 1. Project Description
 
@@ -80,3 +80,5 @@ The app-g06 folder is the application repo deployed on Heroku.
 - requirements.txt: Necessary packages with required versions
 - runtime.txt: Specifying specific Python runtime
 - wsgi.py: Containing app.run()
+
+**You can read the Project Report for more details about this whole machine learning project :)**
