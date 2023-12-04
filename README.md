@@ -50,9 +50,16 @@ Above is the link of our web application for predicting the heart attack or dise
 
 Here are some data input sample for use:
 
+High Risk:
 [1.0,1.0,1.0,47.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,2.0,0.0,1.0,0.0,1.0,12.0,4.0,2.0]
+[1.0,1.0,1.0,34.0,0.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,1.0,4.0,0.0,14.0,1.0,0.0,9.0,5.0,1.0]
+[1.0,1.0,1.0,45.0,0.0,0.0,2.0,1.0,1.0,0.0,0.0,1.0,1.0,4.0,15.0,10.0,0.0,0.0,8.0,5.0,3.0]
 
+Low Risk:
 [0.0,0.0,1.0,22.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,3.0,0.0,1.0,2.0,4.0,1.0]
+[1.0,0.0,1.0,28.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,2.0,0.0,1.0,0.0,1.0,5.0,5.0,8.0]
+[1.0,0.0,1.0,28.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,2.0,0.0,1.0,0.0,1.0,5.0,5.0,8.0]
+
 
 ## 6. Code Description
 
@@ -62,3 +69,14 @@ You are welcomed to look through our code and dataset for this project within th
 - project_eda.ipynb: This notebook contains more EDA work
 - Undersample_training.ipynb: We leverege undersampling strategy to address the data's imbalance and train the models again within this notebook 
 - Feature_importance_and_PCA.ipynb: This notebook includes the process of feature importance check and PCA
+
+## 7. Application Repository
+
+The APPANLY-G06 folder is the application repo deployed on Heroku.
+
+- app: Folder that has html template, css sheet, app.py, requirements.txt, and SampleProjectJoblib.joblib
+- MLmodel.ipynb: The model notebook in which we export it into the joblib file
+- Procfile: Configuration file
+- requirements.txt: Necessary packages with required versions
+- runtime.txt: Specifying specific Python runtime
+- wsgi.py: Containing app.run()
