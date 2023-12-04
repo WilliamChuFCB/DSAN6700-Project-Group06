@@ -70,7 +70,7 @@ You are welcomed to look through our code and dataset for this project within th
 - Undersample_training.ipynb: We leverege undersampling strategy to address the data's imbalance and train the models again within this notebook 
 - Feature_importance_and_PCA.ipynb: This notebook includes the process of feature importance check and PCA
 
-## 7 Data
+## 7. Data
 
 Here are the features and descriptions for these variables:
 
@@ -123,7 +123,7 @@ Here are the features and descriptions for these variables:
     8: >= $75000"
 - HeartDiseaseorAttack: 0: No Heart Attack/Disease, 1: Having Heart Attack/Disease
 
-## 7. Application Repository
+## 8. Application Repository
 
 The app-g06 folder is the application repo deployed on Heroku.
 
