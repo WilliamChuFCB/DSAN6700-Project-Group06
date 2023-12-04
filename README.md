@@ -72,7 +72,7 @@ You are welcomed to look through our code and dataset for this project within th
 
 ## 7. Application Repository
 
-The APPANLY-G06 folder is the application repo deployed on Heroku.
+The app-g06 folder is the application repo deployed on Heroku.
 
 - app: Folder that has html template, css sheet, app.py, requirements.txt, and SampleProjectJoblib.joblib
 - MLmodel.ipynb: The model notebook in which we export it into the joblib file
