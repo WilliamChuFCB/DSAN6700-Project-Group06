@@ -70,6 +70,59 @@ You are welcomed to look through our code and dataset for this project within th
 - Undersample_training.ipynb: We leverege undersampling strategy to address the data's imbalance and train the models again within this notebook 
 - Feature_importance_and_PCA.ipynb: This notebook includes the process of feature importance check and PCA
 
+## 7 Data
+
+Here are the features and descriptions for these variables:
+
+- HighBP: 0: No High Blood Pressure, 1: High Blood Pressure
+- HighChol: 0: No High Blood Cholesterol, 1: High Blood Cholesterol
+- CholCheck: 0: No Cholesterol Checked within Past 5 Years, 1: Cholesterol Checked within Past 5 Years
+- BMI: Body Mass Index from 1 to 9999
+- Smoker: 0: Never Smoked 100 Cigarettes in Entire Life, 1: Smoked at least 100 Cigarettes in Entire Life"
+- Stroke: 0: No Stroke, 1: Stroke
+- Diabetes: 0: No Diabetes, 1: Pre-Diabetes, 2: Diabetes
+- PhysActivity:	0: No Physical Activities within Past 30 Days, 1: Have Physical Activities within Past 30 Days
+- Fruits: 0: No Fruits Consumed Per Day, 1: 1 or More Fruits Consumed Per Day
+- Veggies: 0: No Vegetables Consumed Per Day, 1: 1 or More Vegetables Consumed Per Day
+- HvyAlcoholConsump: 0: No Heavy Drinking, 1: Heavy Drinking
+- AnyHealthcare: 0: No Healthcare Access, 1: Have Healthcare Access
+- NoDocbcCost: 0:  Needed to See a Doctor But Could Not Because Of Cost Within Past 12 Months, 1: Saw a Doctor Within Past 12 Months
+- GenHlth: General Health from 1 to 5
+        1: Poor
+        5: Excellent"
+- MentHlth:	How Many Days was Mental health Not Good In The Past 30 Days
+- PhysHlth:	How Many Days was Physical health Not Good In The Past 30 Days
+- DiffWalk:	0: No Serious Difficult Walking, 1: Serious Difficult Walking
+- Sex: 0: Female, 1: Male
+- Age: 1: 18 - 24
+    2: 25 - 29
+    3: 30 - 34
+    4: 35 - 39
+    5: 40 - 44
+    6: 45 - 49
+    7: 50 - 54
+    8: 55 - 59
+    9: 60 - 64
+    10: 65 - 69
+    11: 70 - 74
+    12: 75 - 79
+    13: >= 80"
+- Education: 1: Never Attended Schools or Kindergarden Only
+    2: Elementary Schools
+    3: Some High Schools
+    4: High School Graduate
+    5: Some Colleges or Technical Schools
+    6: College Graduate"
+- Income: 1: Less than $10000
+    2: $10000 - $15000
+    3: $15000 - $20000
+    4: $20000 - $25000
+    5: $25000 - $35000
+    6: $35000 - $50000
+    7: $50000 - $75000
+    8: >= $75000"
+- HeartDiseaseorAttack: 0: No Heart Attack/Disease, 1: Having Heart Attack/Disease
+
 ## 7. Application Repository
 
 The app-g06 folder is the application repo deployed on Heroku.
